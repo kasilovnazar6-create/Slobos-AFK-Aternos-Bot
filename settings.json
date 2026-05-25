@@ -24,27 +24,35 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+      "messages": [
+        "good",
+        "nice",
+        "ok",
+        "gg"
+      ]
     },
     "chat-log": false,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 30000
+    "auto-reconnect-delay": 10000,
+    "max-reconnect-delay": 60000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 2,
-      "speed": 5000
+      "radius": 5,
+      "speed": 2000
     },
     "look-around": {
       "enabled": true,
-      "interval": 15000
+      "interval": 3000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 30000
+      "interval": 8000
     }
   },
   "modules": {
